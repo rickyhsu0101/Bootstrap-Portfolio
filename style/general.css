@@ -68,12 +68,12 @@ Content
     color: #4aaaa5;
 }
 .content img{
-    width: 240px;
+    width: 50%;
     float: left;
     margin: 15px 15px 15px 0;
 }
 .content p{
-    line-height: 2em;
+    line-height: 1.8em;
     margin-top: 20px;
     font-size: 1.8em;
     color: gray;
@@ -83,10 +83,10 @@ Content
 }
 .contact{
     width: 270px;
-    margin-left: 20px;
+    margin: auto;
     background:#ffffff;
     padding:20px;
-    float:left;
+    overflow: auto;
 }
 .contact hr{
     padding:1px;
