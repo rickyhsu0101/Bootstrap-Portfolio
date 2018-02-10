@@ -5,25 +5,25 @@
         <title>Ricky's Portfolio</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel= "stylesheet" type = "text/css" href = "./../style/general.css">
-        <link rel = "stylesheet" type = "text/css" href = "./../style/portfolio.css">
+       <link rel = "stylesheet" type = "text/css" href = "./../style/portfolio.css"> 
         <!--Github entry point index.html-->
     </head>
     <body>
         <div class = "wrapper">
-            <nav class="navbar navbar-expand-lg navbar-light  row justify-content-around">
-                <a class="navbar-brand col-2" href="#">
+            <nav class="navbar navbar-expand-lg navbar-light row justify-content-around">
+                <a class="navbar-brand col-2" href="./index.html">
                     <div class = "title"><h1>Ricky</h1></div>  
                 </a>
-                <div class=" col-2" id="navbarNav">
+                <div class="col-2" id="navbarNav">
                     <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">About</a>
+                        </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="./contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -31,41 +31,57 @@
                 
             <div class = "container-fluid ">
                 <div class = "row justify-content-center">
-                <div class = "col-4">
-                    <div class = "container content">
-                        <h2>Portfolio</h2>
-                        <hr>
-                        <div id="image1">
-                            <img id="image1">
-                            <div><h3>Hangman</h3></div>
-                        </div>
-                        <div id="image2">
+                    <div class = "col-lg-4 col-md-8">
+                        <div class = "container-fluid content">
+                            <h2>Portfolio</h2>
+                            <hr>
+                            <div class = "row row-mod">
+                                <div class="col-md-6 col-sm-12 col-modified">
+                                    <div id = "image1" class = "custom">
+                                        <div class = "tag"><h3>Hangman</h3></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 col-modified">
+                                    <div id = "image2" class = "custom">
+                                        <div class = "tag"><h3>RPG Game</h3></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "row row-mod">
+                                <div class="col-md-6 col-sm-12 col-modified">
+                                    <div id = "image3" class = "custom">
+                                        <div class = "tag"><h3>Hangman</h3></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 col-modified">
+                                    <div id = "image4" class = "custom">
+                                        <div class = "tag"><h3>RPG Game</h3></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class = "row row-mod">
+                                <div class="col-md-6 col-sm-12 col-modified">
+                                    <div id = "image5" class = "custom">
+                                        <div class = "tag"><h3>Hangman</h3></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12 col-modified">
+                                    
+                                </div>
+                            </div>
+                    
                         
-                            <div><h3>RPG Game</h3></div>
-                        </div>
-                        <div id="image3">
                             
-                            <div><h3>Trivia Game</h3></div>
                         </div>
-                        <div id="image4">
-                        
-                            <div><h3>Mobile Game</h3></div>
-                        </div>
-                        <div id="image5">
-                            
-                            <div><h3>Other</h3></div>
-                        </div>
-                       
                     </div>
-                </div>
-                <div class = "col-3">
-                    <div class = "container contact">
-                        <h3>Connect with Me</h3>
-                        <hr>
-                        <img src = "./../img/github.png">
-                        <img src = "./../img/linkedin.png">
-                        <img src = "./../img/stackoverflow.png">
-                    </div>
+                    <div class = "col-lg-3 col-md-4">
+                        <div class = "container contact">
+                            <h3>Connect with Me</h3>
+                            <hr>
+                            <img src = "./../img/github.png">
+                            <img src = "./../img/linkedin.png">
+                            <img src = "./../img/stackoverflow.png">
+                        </div>
                     </div>
                 </div>
             </div>
